@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: #F5F5F5; 
+    height: 100%; 
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.navbar {
+    background: linear-gradient(to right, #36D1DC, #5B86E5);
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    transition: box-shadow 0.3s ease; 
+}
+
+.navbar ul li a:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+}
+
+.contenido {
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.quienes-somos,
+.que-ofrecemos {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.quienes-somos .imagen,
+.que-ofrecemos .imagen {
+    width: 50%;
+}
+
+.quienes-somos .imagen img,
+.que-ofrecemos .imagen img {
+    width: 400px;
+    height: 300px;
+}
+
+.quienes-somos .texto,
+.que-ofrecemos .texto {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.quienes-somos {
+    float: left;
+}
+
+.que-ofrecemos {
+    float: right;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
