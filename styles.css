@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Helvetica Neue", sans-serif;
+    font-family: "Open Sans", sans-serif;
     background-color: #F5F5F5; 
     height: 100%; 
 }
@@ -95,12 +95,33 @@ body {
     float: right;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+
+.card {
+    min-height: 640px;
 }
+
+#footer {
+    font-size: 14px;
+    background: #333;
+  }
+  
+  
+  #footer .footer-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+  }
+  
+  #footer .copyright {
+    float: left;
+  }
+  
+  #footer .credits {
+    float: right;
+    font-size: 13px;
+  }
+  
+  #footer .credits a {
+    transition: 0.3s;
+  }
+  
