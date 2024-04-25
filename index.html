@@ -1,365 +1,220 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Neres IT</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
 
     <!-- Google Fonts -->
     <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
     <!-- Archivo CSS de Bootstrap 5 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Archivo JavaScript de Bootstrap 5 (necesario para algunas funcionalidades como el menú desplegable) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
 
-
-</head>
-
-<body>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img class="logo" src="assets/logo.png"
-                        alt="Neres IT Logo"></a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="mision-vision-valores.html">Misión,
-                                Visión y Valores</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="servicios.html">Servicios Ofrecidos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="propuesta-comercial.html">Propuesta Comercial</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img class="logo" src="assets/logo.png" alt="Neres IT Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="mision-vision-valores.html"
+                  >Misión, Visión y Valores</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html"
+                  >Servicios Ofrecidos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
-
-    <div class="container text-center mt-4">
-        <div class="row">
-            <div class="col-12 col-md-4">
-                <div class="card">
-                    <img class="card-img-top p-2" src="assets/quienes-somos-image.png" alt="Imagen Quiénes Somos">
-                    <div class="card-body">
-                        <h5 class="card-title">¿Quiénes somos?</h5>
-                        <p class="card-text">Somos Neres IT, una empresa dedicada a ofrecer soluciones tecnológicas
-                            innovadoras para empresas de
-                            todos los tamaños. Nuestro equipo está formado por expertos en desarrollo web, diseño
-                            gráfico y
-                            marketing
-                            digital.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Another link</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4">
-                <div class="card">
-                    <img class="card-img-top p-2" src="assets/hacemos.png" alt="Imagen Lo que ofrecemos">
-                    <div class="card-body">
-                        <h5 class="card-title">¿Qué ofrecemos?</h5>
-                        <p>En Neres IT ofrecemos servicios de desarrollo web a medida, diseño de identidad corporativa,
-                            estrategias de marketing online y consultoría tecnológica. Nos enfocamos en brindar
-                            soluciones
-                            personalizadas
-                            que impulsen el crecimiento de tu negocio.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Saber mas</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
-                    </div>
-                </div>
-            </div>
+    <section id="portfolio" class="portfolio mt-2 mb-2">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Desarrollo de software</h2>
+          <p>Mediante tecnologías de vanguardia y metodologías ágiles</p>
         </div>
+      </div>
+    </section>
 
+    <div class="container text-center mb-2">
+      <div class="row">
+        <div class="col-6 col-md-3">
+          <div class="card card-dev m-1">
+            <img
+              class="  p-2 card-img-dev"
+              src="assets/integracion-sist.png"
+              alt="Imagen Quiénes Somos"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Integración de Sistemas</h5>
+              <p class="card-text">
+                Implementación de arquitecturas SOA y microservicios
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card card-dev m-1">
+            <img
+              class="  p-2 card-img-dev"
+              src="assets/software-factory.png"
+              alt="Imagen Lo que ofrecemos"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Software Factory</h5>
+              <p>
+                Desarrollo de software desde el relevamiento hasta la
+                implementación
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card card-dev m-1">
+            <img
+              class="p-2 card-img-dev"
+              src="assets/procesos-docu.png"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Procesos Documentales</h5>
+              <p class="card-text">
+                Transformación digital e implementación de workflows
+                documentales
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card card-dev m-1">
+            <img
+              class="  p-2 card-img-dev"
+              src="assets/soporte-productivo-img.png"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Soporte Productivo</h5>
+              <p class="card-text">
+                Atención de tickets de proyectos de software mediante SLA
+                adaptables
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-
-    <div id="carouselExampleDark" class="carousel carousel-dark slide mt-4">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <section id="a" class="a section-bg mb-2">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Sobre nosotros</h2>
+          <p>
+            Más de 7 años trabajando en servicios de TI desarrollando
+            aplicaciones de software para clientes de todo el mundo.
+          </p>
+          <p>
+            Contamos con un portfolio de casos de éxito con una gran diversidad
+            de sectores (logística, bancos, retail, automotriz, etc.) y
+            dimensiones de proyectos. Estamos siempre motivados por la
+            utilización de tecnologías de vanguardia que permitan alcanzar el
+            resultado esperado, y metodologías ágiles que aseguran la
+            transparencia y contacto directo con nuestros clientes.
+          </p>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="assets/portfolio/portfolio-1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="assets/portfolio/portfolio-2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="assets/portfolio/portfolio-3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
+    </section>
 
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
-        <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-                <h2>Services</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                    fugiat sit in iste officiis commodi quidem hic quas.</p>
-            </div>
-
-            <div class="row">
-                <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="icon-box">
-                        <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                        <h4><a href="">Lorem Ipsum</a></h4>
-                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
-                    data-aos-delay="200">
-                    <div class="icon-box">
-                        <div class="icon"><i class="bx bx-file"></i></div>
-                        <h4><a href="">Sed ut perspici</a></h4>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
-                    data-aos-delay="300">
-                    <div class="icon-box">
-                        <div class="icon"><i class="bx bx-tachometer"></i></div>
-                        <h4><a href="">Magni Dolores</a></h4>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
-                    data-aos-delay="400">
-                    <div class="icon-box">
-                        <div class="icon"><i class="bx bx-layer"></i></div>
-                        <h4><a href="">Nemo Enim</a></h4>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-                    </div>
-                </div>
-
-            </div>
-
+    <section id="clients" class="clients section-bg mb-2">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>¿Qué dicen nuestros clientes?</h2>
         </div>
-    </section><!-- End Services Section -->
-
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-        <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-                <h2>Portfolio</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+      <div class="container text-center mt-4">
+        <div class="row">
+          <div class="col-6 col-md-6">
+            <div class="card card-clients m-1">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Soluciones innovadoras con la flexibilidad necesaria
+                </h5>
+                <p class="card-text">
+                  Neres ha logrado ofrecer soluciones innovadoras con resultados
+                  concretos y efectivos, brindando la flexibilidad necesaria
+                  para lograr todos los objetivos propuestos.
+                </p>
+              </div>
             </div>
+          </div>
 
-            <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-app">App</li>
-                <li data-filter=".filter-card">Card</li>
-                <li data-filter=".filter-web">Web</li>
-            </ul>
-
-            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-img"><img src="assets/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="portfolio-info">
-                        <h4>App 1</h4>
-                        <p>App</p>
-                        <a href="assets/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-img"><img src="assets/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="portfolio-info">
-                        <h4>Web 3</h4>
-                        <p>Web</p>
-                        <a href="assets/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-img"><img src="assets/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="portfolio-info">
-                        <h4>App 2</h4>
-                        <p>App</p>
-                        <a href="assets/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-img"><img src="assets/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="portfolio-info">
-                        <h4>Card 2</h4>
-                        <p>Card</p>
-                        <a href="assets/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-img"><img src="assets/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="portfolio-info">
-                        <h4>Web 2</h4>
-                        <p>Web</p>
-                        <a href="assets/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-img"><img src="assets/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="portfolio-info">
-                        <h4>App 3</h4>
-                        <p>App</p>
-                        <a href="assets/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-img"><img src="assets/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="portfolio-info">
-                        <h4>Card 1</h4>
-                        <p>Card</p>
-                        <a href="assets/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-img"><img src="assets/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="portfolio-info">
-                        <h4>Card 3</h4>
-                        <p>Card</p>
-                        <a href="assets/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-img"><img src="assets/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="portfolio-info">
-                        <h4>Web 3</h4>
-                        <p>Web</p>
-                        <a href="assets/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
+          <div class="col-6 col-md-6">
+            <div class="card card-clients m-1">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Resultados consistentes a un costo razonable
+                </h5>
+                <p>
+                  Empresa sobresaliente en cada etapa del proceso: análisis
+                  detallado, muy buen diseño, sencilla implementación, y
+                  excelente soporte productivo.
+                </p>
+              </div>
             </div>
-
+          </div>
         </div>
-    </section><!-- End Portfolio Section -->
-
+      </div>
+    </section>
 
     <footer id="footer">
-        <div class="container footer-bottom clearfix">
-            <div class="copyright">
-                &copy; Copyright <strong><span>Neres IT</span></strong>. Todos los derechos reservados
-            </div>
-            <div class="credits">
-                Designed by <a href="https://github.com/mdmansilla">Marcelo Mansilla </a>
-            </div>
+      <div class="container footer-bottom clearfix">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Neres IT</span></strong
+          >. Todos los derechos reservados
         </div>
+        <div class="credits">
+          Designed by
+          <a href="https://github.com/mdmansilla">Marcelo Mansilla </a>
+        </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
