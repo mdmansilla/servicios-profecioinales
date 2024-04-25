@@ -188,21 +188,20 @@ body {
 }
 
 .accordion-button {
-  background: linear-gradient(to right, #ffa500, #ffff00);
+  background: linear-gradient(to left, #ffa500, #ffff00);
   color: #fff;
 }
 
 .accordion-button:hover {
-  background: linear-gradient(to right, #ffa500, #ffff00);
+  background: linear-gradient(to left, #ffa500, #ffff00);
 }
 
 .accordion-button.collapsed {
-  background: linear-gradient(to right, #ffa500, #ffff00);
+  background: linear-gradient(to left, #ffa500, #ffff00);
 }
 
 .accordion-button:focus {
-    /* background: linear-gradient(to right, #FFA500, #FFFF00); Mantener el gradiente naranja amarillo */
-    color: #fff; 
-    box-shadow: none;
-    outline: none; 
-  }
+  color: #fff;
+  box-shadow: none;
+  outline: none;
+}
